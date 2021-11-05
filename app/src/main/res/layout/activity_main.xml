@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
 
@@ -19,6 +20,7 @@
         android:layout_height="wrap_content"
         android:hint="Isi nama lengkap "
         android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"
         />
 
     <TextView
@@ -32,6 +34,7 @@
         android:layout_height="wrap_content"
         android:hint="Isi Email "
         android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
         />
 
     <TextView
@@ -45,6 +48,7 @@
         android:layout_height="wrap_content"
         android:hint="Isi Handphone"
         android:inputType="phone"
+        android:layout_marginBottom="10dp"
         />
 
     <TextView
@@ -58,6 +62,7 @@
         android:layout_height="wrap_content"
         android:hint="Isi Tanggal Lahir (dd/MM/yyyy)"
         android:inputType="date"
+        android:layout_marginBottom="10dp"
         />
 
     <TextView
@@ -71,6 +76,7 @@
         android:layout_height="wrap_content"
         android:hint="Isi Jumlah Mata Kuliah"
         android:inputType="number"
+        android:layout_marginBottom="10dp"
         />
 
     <LinearLayout
@@ -85,6 +91,7 @@
         android:text="Simpan"
         android:backgroundTint="@color/success"
         android:drawableLeft="@drawable/ic_baseline_save_24"
+        android:layout_marginEnd="10dp"
         />
 
         <Button
