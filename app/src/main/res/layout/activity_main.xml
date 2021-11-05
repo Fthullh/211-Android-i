@@ -84,6 +84,7 @@
         android:layout_height="wrap_content"
         android:text="Simpan"
         android:backgroundTint="@color/success"
+        android:drawableLeft="@drawable/ic_baseline_save_24"
         />
 
         <Button
@@ -91,6 +92,7 @@
         android:layout_height="wrap_content"
         android:text="Batal"
         android:backgroundTint="@color/danger"
+        android:drawableLeft="@drawable/ic_baseline_cancel_24"
         />
 
     </LinearLayout>
