@@ -18,8 +18,7 @@ class MainActivity : AppCompatActivity() {
         val emailEditText = findViewById<EditText>(R.id.emailEditText)
 
         simpanButton.setOnClickListener {
-            namaEditText.setText("")
-            emailEditText.setText("")
+            Toast.makeText(this,"Hai Apa Kabar !!! ",Toast.LENGTH_SHORT).show()
         }
 
         batalButton.setOnClickListener {
