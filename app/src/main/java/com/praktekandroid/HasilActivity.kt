@@ -26,5 +26,6 @@ class HasilActivity : AppCompatActivity() {
         handphoneTextView.setText(handphone)
         tanggalLahirTextView.setText(tanggalLahir)
         jumlahMataKuliahTextView.setText(jumlahMataKuliah.toString())
+
     }
 }

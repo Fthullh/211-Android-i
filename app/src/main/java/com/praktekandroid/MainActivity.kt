@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val jumlahMataKuliahEditText = findViewById<EditText>(R.id.jumlahMataKuliahEditText)
 
         simpanButton.setOnClickListener {
-            Toast.makeText(this,"Hai Apa Kabar !!! ",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Data disimpan !!! ",Toast.LENGTH_SHORT).show()
 
             val nama = namaEditText.text.toString()
             val email = emailEditText.text.toString()
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("email", email)
             intent.putExtra("handphone", handphone)
             intent.putExtra("tanggalLahir", tanggalLahir)
-            intent.putExtra("jumlahMataKuiah", jumlahMataKuliah)
+            intent.putExtra("jumlahMataKuliah", jumlahMataKuliah)
             startActivity(intent)
         }
 
