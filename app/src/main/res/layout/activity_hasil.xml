@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
-    tools:context=".MainActivity">
-
+    android:padding="16dp"
+    tools:context=".HasilActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,12 +14,14 @@
         android:text="Nama"
         />
 
-    <EditText
-        android:id="@+id/namaEditText"
+    <TextView
+        android:id="@+id/namaTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi nama lengkap "
-        android:inputType="textPersonName"
+        android:text="Nama"
+        android:textSize="24sp"
+        android:textColor="@color/danger"
+        android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
 
@@ -28,14 +29,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
-    />
+        />
 
-    <EditText
-        android:id="@+id/emailEditText"
+    <TextView
+        android:id="@+id/emailTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Email "
-        android:inputType="textEmailAddress"
+        android:text="fthullh99@gmail.com"
+        android:textSize="24sp"
+        android:textColor="@color/danger"
+        android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
 
@@ -45,12 +48,14 @@
         android:text="Handphone"
         />
 
-    <EditText
-        android:id="@+id/handphoneEditText"
+    <TextView
+        android:id="@+id/handphoneTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Handphone"
-        android:inputType="phone"
+        android:text="082255538868"
+        android:textSize="24sp"
+        android:textColor="@color/danger"
+        android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
 
@@ -60,12 +65,15 @@
         android:text="Tanggal Lahir"
         />
 
-    <EditText
-        android:id="@+id/tanggalLahirEditText"
+    <TextView
+        android:id="@+id/tanggalLahirTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Tanggal Lahir (dd/MM/yyyy)"
         android:inputType="date"
+        android:text="26/09/199"
+        android:textSize="24sp"
+        android:textColor="@color/danger"
+        android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
 
@@ -75,40 +83,16 @@
         android:text="Jumlah Mata Kuliah"
         />
 
-    <EditText
-        android:id="@+id/jumlahMataKuliahEditText"
+    <TextView
+        android:id="@+id/jumlahMataKuliahTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Jumlah Mata Kuliah"
-        android:inputType="number"
+        android:text="24"
+        android:textSize="24sp"
+        android:textColor="@color/danger"
+        android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
-        <Button
-        android:id="@+id/simpanButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Simpan"
-        android:backgroundTint="@color/success"
-        android:drawableLeft="@drawable/ic_baseline_save_24"
-        android:layout_marginEnd="10dp"
-        />
-
-        <Button
-        android:id="@+id/batalButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Batal"
-        android:backgroundTint="@color/danger"
-        android:drawableLeft="@drawable/ic_baseline_cancel_24"
-        />
-
-    </LinearLayout>
 
 </LinearLayout>
