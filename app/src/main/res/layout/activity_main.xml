@@ -10,76 +10,97 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama"
+        android:text="Jenis"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
         />
 
     <EditText
-        android:id="@+id/namaEditText"
+        android:id="@+id/jenisEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi nama lengkap "
+        android:hint="Isi jenis batu "
         android:inputType="textPersonName"
         android:layout_marginBottom="10dp"
         />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email"
+        android:text="Warna"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
     />
 
     <EditText
-        android:id="@+id/emailEditText"
+        android:id="@+id/warnaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Email "
-        android:inputType="textEmailAddress"
+        android:hint="Isi warna batu "
+        android:inputType="text"
         android:layout_marginBottom="10dp"
         />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Handphone"
+        android:text="Ukuran"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
         />
 
     <EditText
-        android:id="@+id/handphoneEditText"
+        android:id="@+id/ukuranEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Handphone"
-        android:inputType="phone"
+        android:hint="Isi ukuran batu"
+        android:inputType="text"
         android:layout_marginBottom="10dp"
         />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tanggal Lahir"
+        android:text="Berat"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
         />
 
     <EditText
-        android:id="@+id/tanggalLahirEditText"
+        android:id="@+id/beratEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Tanggal Lahir (dd/MM/yyyy)"
-        android:inputType="date"
+        android:hint="Isi berat batu"
+        android:inputType="text"
         android:layout_marginBottom="10dp"
         />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jumlah Mata Kuliah"
+        android:text="Harga"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
         />
 
     <EditText
-        android:id="@+id/jumlahMataKuliahEditText"
+        android:id="@+id/hargaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Jumlah Mata Kuliah"
+        android:hint="Isi harga batu"
         android:inputType="number"
         android:layout_marginBottom="10dp"
         />
@@ -95,7 +116,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Simpan"
-        android:backgroundTint="@color/success"
+        android:backgroundTint="@color/teal_700"
         android:drawableLeft="@drawable/ic_baseline_save_24"
         android:layout_marginEnd="10dp"
         />

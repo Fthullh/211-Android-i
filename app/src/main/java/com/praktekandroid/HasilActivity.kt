@@ -9,23 +9,23 @@ class HasilActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hasil)
 
-        val nama = intent.getStringExtra("nama")
-        val email = intent.getStringExtra("email")
-        val handphone = intent.getStringExtra("handphone")
-        val tanggalLahir = intent.getStringExtra("tanggalLahir")
-        val jumlahMataKuliah = intent.getIntExtra("jumlahMataKuliah", 0)
+        val jenis = intent.getStringExtra("jenis")
+        val warna = intent.getStringExtra("warna")
+        val ukuran = intent.getStringExtra("ukuran")
+        val berat = intent.getStringExtra("berat")
+        val harga = intent.getIntExtra("harga", 0)
 
-        val namaTextView = findViewById<TextView>(R.id.namaTextView)
-        val emailTextView = findViewById<TextView>(R.id.emailTextView)
-        val handphoneTextView = findViewById<TextView>(R.id.handphoneTextView)
-        val tanggalLahirTextView = findViewById<TextView>(R.id.tanggalLahirTextView)
-        val jumlahMataKuliahTextView = findViewById<TextView>(R.id.jumlahMataKuliahTextView)
+        val jenisTextView = findViewById<TextView>(R.id.jenisTextView)
+        val warnaTextView = findViewById<TextView>(R.id.warnaTextView)
+        val ukuranTextView = findViewById<TextView>(R.id.ukuranTextView)
+        val beratTextView = findViewById<TextView>(R.id.beratTextView)
+        val hargaTextView = findViewById<TextView>(R.id.hargaTextView)
 
-        namaTextView.setText(nama)
-        emailTextView.setText(email)
-        handphoneTextView.setText(handphone)
-        tanggalLahirTextView.setText(tanggalLahir)
-        jumlahMataKuliahTextView.setText(jumlahMataKuliah.toString())
+        jenisTextView.setText(jenis)
+        warnaTextView.setText(warna)
+        ukuranTextView.setText(ukuran)
+        beratTextView.setText(berat)
+        hargaTextView.setText(harga.toString())
 
     }
 }

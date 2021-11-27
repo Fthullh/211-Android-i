@@ -15,27 +15,27 @@ class MainActivity : AppCompatActivity() {
         val simpanButton = findViewById<Button>(R.id.simpanButton)
         val batalButton = findViewById<Button>(R.id.batalButton)
 
-        val namaEditText = findViewById<EditText>(R.id.namaEditText)
-        val emailEditText = findViewById<EditText>(R.id.emailEditText)
-        val handphoneEditText = findViewById<EditText>(R.id.handphoneEditText)
-        val tanggalLahirEditText = findViewById<EditText>(R.id.tanggalLahirEditText)
-        val jumlahMataKuliahEditText = findViewById<EditText>(R.id.jumlahMataKuliahEditText)
+        val jenisEditText = findViewById<EditText>(R.id.jenisEditText)
+        val warnaEditText = findViewById<EditText>(R.id.warnaEditText)
+        val ukuranEditText = findViewById<EditText>(R.id.ukuranEditText)
+        val beratEditText = findViewById<EditText>(R.id.beratEditText)
+        val hargaEditText = findViewById<EditText>(R.id.hargaEditText)
 
         simpanButton.setOnClickListener {
-            Toast.makeText(this,"Data disimpan !!! ",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Data Batu disimpan !!! ",Toast.LENGTH_SHORT).show()
 
-            val nama = namaEditText.text.toString()
-            val email = emailEditText.text.toString()
-            val handphone = handphoneEditText.text.toString()
-            val tanggalLahir = tanggalLahirEditText.text.toString()
-            val jumlahMataKuliah = jumlahMataKuliahEditText.text.toString().toInt()
+            val jenis = jenisEditText.text.toString()
+            val warna = warnaEditText.text.toString()
+            val ukuran = ukuranEditText.text.toString()
+            val berat = beratEditText.text.toString()
+            val harga = hargaEditText.text.toString().toInt()
 
             val intent = Intent(this,HasilActivity::class.java)
-            intent.putExtra("nama", nama)
-            intent.putExtra("email", email)
-            intent.putExtra("handphone", handphone)
-            intent.putExtra("tanggalLahir", tanggalLahir)
-            intent.putExtra("jumlahMataKuliah", jumlahMataKuliah)
+            intent.putExtra("jenis", jenis)
+            intent.putExtra("warna", warna)
+            intent.putExtra("ukuran", ukuran)
+            intent.putExtra("berat", berat)
+            intent.putExtra("harga", harga)
             startActivity(intent)
         }
 

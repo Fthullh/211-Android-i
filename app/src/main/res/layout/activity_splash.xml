@@ -9,19 +9,19 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="150dp"
-        android:src="@mipmap/uniska"
+        android:src="@mipmap/jp"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aplikasi Ku"
+        android:text="The Perfect of Stones"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:textStyle="bold"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/black"
         />
 
 

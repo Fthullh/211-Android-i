@@ -11,16 +11,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama"
+        android:text="Jenis"
         />
 
     <TextView
-        android:id="@+id/namaTextView"
+        android:id="@+id/jenisTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama"
+        android:text="Sapphire"
         android:textSize="24sp"
-        android:textColor="@color/danger"
+        android:textColor="@color/teal_700"
         android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
@@ -28,16 +28,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email"
+        android:text="Warna"
         />
 
     <TextView
-        android:id="@+id/emailTextView"
+        android:id="@+id/warnaTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="fthullh99@gmail.com"
+        android:text="Blue"
         android:textSize="24sp"
-        android:textColor="@color/danger"
+        android:textColor="@color/teal_700"
         android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
@@ -45,16 +45,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Handphone"
+        android:text="Ukuran"
         />
 
     <TextView
-        android:id="@+id/handphoneTextView"
+        android:id="@+id/ukuranTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="082255538868"
+        android:text="2x4mm"
         android:textSize="24sp"
-        android:textColor="@color/danger"
+        android:textColor="@color/teal_700"
         android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
@@ -62,17 +62,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tanggal Lahir"
+        android:text="Berat"
         />
 
     <TextView
-        android:id="@+id/tanggalLahirTextView"
+        android:id="@+id/beratTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="date"
-        android:text="26/09/199"
+        android:text="1,5 crat"
         android:textSize="24sp"
-        android:textColor="@color/danger"
+        android:textColor="@color/teal_700"
         android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
@@ -80,16 +79,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Jumlah Mata Kuliah"
+        android:text="Harga"
         />
 
     <TextView
-        android:id="@+id/jumlahMataKuliahTextView"
+        android:id="@+id/hargaTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="24"
+        android:text="500000"
         android:textSize="24sp"
-        android:textColor="@color/danger"
+        android:textColor="@color/teal_700"
         android:textStyle="bold"
         android:layout_marginBottom="10dp"
         />
